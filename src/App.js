@@ -6,6 +6,7 @@ import { MainHeader as Header } from "./components/MainHeader";
 import { About } from "./sections/About";
 import { Contact } from "./sections/Contact";
 import { Skills } from "./sections/Skills";
+import { Experience } from "./sections/Experience";
 
 export function App(props) {
   // ids for navigation purposes found in respective component files
@@ -19,12 +20,8 @@ export function App(props) {
           <Contact />
           <div style={{ height: 100 }}></div>
           <Skills />
-          <div style={{ height: 700 }}></div>
-
-          <div id="experience-section">
-            <h5>Experience</h5>
-          </div>
-          <div style={{ height: 700 }}></div>
+          <div style={{ height: 100 }}></div>
+          <Experience />
         </div>
       </div>
     </div>
