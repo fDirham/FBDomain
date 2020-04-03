@@ -1,7 +1,7 @@
 import React from "react";
 import { Link as Scroll } from "react-scroll";
-import { BaseHeader } from "../components/BaseHeader";
-import { ResumeDownload as Resume } from "../components/ResumeDownload";
+import { BaseHeader } from "./BaseHeader";
+import { ResumeDownload as Resume } from "./ResumeDownload";
 import * as Const from "../constants/ScrollConstants";
 export function MainHeader(props) {
   return (

@@ -1,15 +1,15 @@
 import React from "react";
-import { SimpleCarousel as Carousel } from "../../components/SimpleCarousel";
-import { AnnotatedImage as Image } from "../../components/AnnotatedImage";
-import { ProfileCard as Profile } from "../../components/ProfileCard";
-import Pic1 from "../../media/Projects/car1.jpg";
-import Pic2 from "../../media/Projects/car2.jpg";
-import Pic3 from "../../media/Projects/car3.jpg";
+import { SimpleCarousel as Carousel } from "../components/SimpleCarousel";
+import { AnnotatedImage as Image } from "../components/AnnotatedImage";
+import { ProfileCard as Profile } from "../components/ProfileCard";
+import Pic1 from "../media/Projects/car1.jpg";
+import Pic2 from "../media/Projects/car2.jpg";
+import Pic3 from "../media/Projects/car3.jpg";
 import {
   Annotation1,
   Annotation2,
   Annotation3
-} from "../../constants/TextConstants";
+} from "../constants/TextConstants";
 
 export function Contact(props) {
   return (

@@ -4,7 +4,7 @@ import {
   AboutOccupation as Occupation,
   AboutWorks as Works,
   AboutInterests as Interests
-} from "../../constants/TextConstants";
+} from "../constants/TextConstants";
 
 export function About(props) {
   return (
