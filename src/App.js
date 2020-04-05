@@ -16,11 +16,10 @@ export function App(props) {
       <div className="base">
         <div className="content">
           <About />
-          <div style={{ height: 100 }}></div>
           <Contact />
-          <div style={{ height: 100 }}></div>
+          <div style={{ height: 60 }}></div>
           <Skills />
-          <div style={{ height: 100 }}></div>
+          <div style={{ height: 60 }}></div>
           <Experience />
         </div>
       </div>

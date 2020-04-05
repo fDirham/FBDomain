@@ -6,7 +6,7 @@ export class ResumeDownload extends React.Component {
   render() {
     return (
       <a style={{ textDecoration: "none" }} href={URL} download>
-        <div className="resume-download" {...this.props}>
+        <div className="resume-download " {...this.props}>
           Resume
           <img src={Logo} className="resume-download-logo"></img>
         </div>

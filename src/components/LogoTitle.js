@@ -6,14 +6,8 @@ import * as Const from "../constants/ScrollConstants";
 export function LogoTitle(props) {
   return (
     <div
-      onClick={() =>
-        Scroll.scrollToTop({
-          smooth: true,
-          offset: Const.scrollOffset,
-          duration: Const.scrollDuration
-        })
-      }
-      className="header-item clickable"
+      onClick={() => window.location.reload()}
+      className="header-item clickable enlarge-hover"
     >
       <img src={Logo} className="header-logo" />
       <h1>FBD</h1>

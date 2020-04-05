@@ -12,7 +12,7 @@ export function MainHeader(props) {
         hashSpy={true}
         offset={Const.scrollOffset}
         duration={Const.scrollDuration}
-        className="clickable"
+        className="clickable enlarge-hover"
       >
         <h6>About</h6>
       </Scroll>
@@ -23,7 +23,7 @@ export function MainHeader(props) {
         hashSpy={true}
         offset={Const.scrollOffset}
         duration={Const.scrollDuration}
-        className="clickable"
+        className="clickable enlarge-hover"
       >
         <h6>Contact</h6>
       </Scroll>
@@ -34,7 +34,7 @@ export function MainHeader(props) {
         hashSpy={true}
         offset={Const.scrollOffset}
         duration={Const.scrollDuration}
-        className="clickable"
+        className="clickable enlarge-hover"
       >
         <h6>Skills</h6>
       </Scroll>
@@ -45,13 +45,12 @@ export function MainHeader(props) {
         hashSpy={true}
         offset={Const.scrollOffset}
         duration={Const.scrollDuration}
-        className="clickable"
+        className="clickable enlarge-hover"
       >
         <h6>Experience</h6>
       </Scroll>
       <div className="download-divider"></div>
       <Resume />
-      <div className="side-divider"></div>
     </BaseHeader>
   );
 }

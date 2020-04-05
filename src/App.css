@@ -9,6 +9,10 @@
   width: 1000px;
 }
 
+.enlarge-hover:hover {
+  transform: scale(1.2);
+}
+
 /*Resume download button*/
 .resume-download {
   background-color: white;
@@ -19,7 +23,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-size: 120%;
+  font-size: 100%;
   font-weight: bold;
   color: black;
   text-decoration: none;
@@ -30,7 +34,7 @@
 }
 
 .resume-download-logo {
-  margin-left: 10px;
+  padding-left: 5px;
   height: 20px;
   width: 20px;
 }
@@ -52,7 +56,7 @@
   display: flex;
   justify-content: center;
   z-index: 10;
-  height: 40px;
+  height: 50px;
 }
 
 .header-content {
@@ -62,7 +66,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  overflow: hidden;
 }
 
 .header-item {
@@ -73,25 +76,40 @@
 }
 
 .header-logo {
-  padding: 10px;
+  padding-right: 10px;
   height: 35px;
   width: 35px;
 }
 
 .download-divider {
-  width: 40px;
-}
-.side-divider {
-  width: 10px;
+  width: 20px;
 }
 
 /* About */
 .about-container {
+  padding-top: 20px;
+  padding-bottom: 40px;
   width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+}
+
+.about-left {
+  padding-right: 10px;
+}
+
+.about-name {
+  font-size: 300%;
+}
+
+.about-welcome {
+  font-size: 90%;
+}
+
+.about-right {
+  font-size: 100%;
 }
 
 /* Contact */
@@ -132,7 +150,8 @@
 }
 
 .logo-button {
-  width: 40px;
+  width: 30px;
+  border-radius: 5px;
 }
 
 .profile-top-logos {
@@ -171,14 +190,35 @@
 .profile-lines {
   margin-top: 20px;
   color: white;
+  width: 270px;
+  margin-left: 15px;
+}
+
+.profile-identity {
+  text-align: center;
+}
+
+.profile-name {
+  font-size: 200%;
+}
+
+.profile-contact {
+  margin-top: 30px;
+}
+
+.profile-item {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-logos {
+  height: 20px;
+  width: 20px;
 }
 
 .profile-resume {
-  margin-top: 20px;
+  margin-left: 85px;
+  margin-top: 40px;
 }
 
 /*Skills*/
@@ -203,7 +243,7 @@
 }
 
 .skills-1-img {
-  height: 200px;
+  height: 175px;
   object-fit: cover;
 }
 
@@ -214,16 +254,13 @@
 }
 
 .skills-23-img {
-  height: 200px;
+  height: 175px;
   object-fit: cover;
 }
 
 .skills-annotation {
   text-align: center;
-  width: 100%;
-  background-color: black;
-  color: white;
-  border-radius: 0 0 5px 5px;
+  color: black;
 }
 
 .skills-collection {
@@ -236,17 +273,14 @@
 
 .skills-small {
   height: 100px;
+  width: 100px;
   object-fit: cover;
   padding: 5px;
 }
 
 .skills-annotation-small {
-  margin-left: 10%;
-  width: 80%;
   text-align: center;
-  background-color: black;
-  color: white;
-  border-radius: 0 0 5px 5px;
+  color: black;
 }
 
 /* Experience */
@@ -254,7 +288,9 @@
 .experience-slide {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   padding-bottom: 80px;
+  height: 300px;
 }
 
 .experience-carousel {
@@ -263,7 +299,12 @@
 }
 
 .experience-text {
+  height: 300px;
   color: black;
+  width: auto;
+}
+
+.experience-redirect {
 }
 /* Base*/
 .experience-base {
@@ -278,22 +319,49 @@
 }
 
 /* Text */
+* {
+  font-family: Cabin;
+  font-weight: lighter;
+  font-stretch: expanded;
+}
+
 /* Logo FBD */
 h1 {
   color: white;
+  font-weight: bold;
   font-size: 200%;
 }
 
-/* Experience text */
-h4 {
+/* Date text */
+h2 {
   font-size: 80%;
   color: black;
 }
 
-/* Section titles */
-h5 {
+/* Experience text */
+h3 {
+  font-size: 100%;
+  color: black;
+  text-align: justify;
+}
+
+/* Experience title */
+h4 {
+  margin: 0;
+  padding: 0;
   font-size: 120%;
   color: black;
+  font-weight: bold;
+}
+
+/* Section titles */
+h5 {
+  font-size: 160%;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
 }
 
 /* Header text */

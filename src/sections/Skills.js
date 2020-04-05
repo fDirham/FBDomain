@@ -1,8 +1,18 @@
 import React from "react";
 import { AnnotatedImage as Skill } from "../components/AnnotatedImage";
-import Arduino from "../media/Skills/arduino.jpg";
+import Arduino from "../media/Skills/arduino.png";
 import Cpp from "../media/Skills/c++.png";
-import Java from "../media/Skills/java.jpg";
+import Java from "../media/Skills/java.png";
+import C from "../media/Skills/c.png";
+import Csharp from "../media/Skills/csharp.png";
+import ReactLogo from "../media/Skills/react.png";
+import HTML from "../media/Skills/html.png";
+import Unity from "../media/Skills/unity.png";
+import ThingSpeak from "../media/Skills/thingspeak.png";
+import SolidWorks from "../media/Skills/solidworks.png";
+import Python from "../media/Skills/python.jpg";
+import NodeJs from "../media/Skills/nodejs.png";
+import Assembly from "../media/Skills/assembly.png";
 
 export class Skills extends React.Component {
   render() {
@@ -15,10 +25,10 @@ export class Skills extends React.Component {
               {" "}
               <Skill
                 imgSrc={Arduino}
-                imgClass="skills-1-img"
+                imgClass="skills-1-img "
                 annotation="Arduino"
                 imgAlt="Arduino logo"
-                annotationClass="skills-annotation"
+                annotationClass="skills-annotation "
               />
             </div>
             <div className="skills-23">
@@ -40,66 +50,73 @@ export class Skills extends React.Component {
           </div>
           <div className="skills-collection">
             <Skill
-              imgSrc={Java}
+              imgSrc={C}
               imgClass="skills-small"
-              annotation="Java"
-              imgAlt="Java logo"
+              annotation="C"
+              imgAlt="Clogo"
               annotationClass="skills-annotation-small"
             />
             <Skill
-              imgSrc={Java}
+              imgSrc={Csharp}
               imgClass="skills-small"
-              annotation="Java"
-              imgAlt="Java logo"
+              annotation="C#"
+              imgAlt="C# logo"
               annotationClass="skills-annotation-small"
             />
             <Skill
-              imgSrc={Java}
+              imgSrc={ReactLogo}
               imgClass="skills-small"
-              annotation="Java"
-              imgAlt="Java logo"
+              annotation="React"
+              imgAlt="React logo"
               annotationClass="skills-annotation-small"
             />
             <Skill
-              imgSrc={Java}
+              imgSrc={NodeJs}
               imgClass="skills-small"
-              annotation="Java"
-              imgAlt="Java logo"
+              annotation="NodeJs"
+              imgAlt="NodeJs logo"
               annotationClass="skills-annotation-small"
             />
             <Skill
-              imgSrc={Java}
+              imgSrc={HTML}
               imgClass="skills-small"
-              annotation="Java"
-              imgAlt="Java logo"
+              annotation="HTML"
+              imgAlt="HTML logo"
               annotationClass="skills-annotation-small"
             />
             <Skill
-              imgSrc={Java}
+              imgSrc={Python}
               imgClass="skills-small"
-              annotation="Java"
-              imgAlt="Java logo"
+              annotation="Python"
+              imgAlt="Python logo"
               annotationClass="skills-annotation-small"
             />
             <Skill
-              imgSrc={Java}
+              imgSrc={Unity}
               imgClass="skills-small"
-              annotation="Java"
-              imgAlt="Java logo"
+              annotation="Unity"
+              imgAlt="Unity logo"
               annotationClass="skills-annotation-small"
             />
             <Skill
-              imgSrc={Java}
+              imgSrc={ThingSpeak}
               imgClass="skills-small"
-              annotation="Java"
-              imgAlt="Java logo"
+              annotation="ThingSpeak"
+              imgAlt="ThingSpeak logo"
               annotationClass="skills-annotation-small"
             />
             <Skill
-              imgSrc={Java}
+              imgSrc={SolidWorks}
               imgClass="skills-small"
-              annotation="Java"
-              imgAlt="Java logo"
+              annotation="SolidWorks"
+              imgAlt="SolidWorks logo"
+              annotationClass="skills-annotation-small"
+            />
+            <Skill
+              imgSrc={Assembly}
+              imgClass="skills-small"
+              annotation="Assembly"
+              imgAlt="Assembly logo"
               annotationClass="skills-annotation-small"
             />
           </div>

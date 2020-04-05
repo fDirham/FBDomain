@@ -7,7 +7,7 @@ export class LogoButton extends React.Component {
         <img
           src={this.props.imgSrc}
           alt={this.props.imgAlt}
-          className="logo-button"
+          className={this.props.imgClass}
         />
       </a>
     );
