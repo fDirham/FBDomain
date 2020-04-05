@@ -9,9 +9,12 @@ export const AboutInterests =
 
 /*Contact constants*/
 /*-Picture annotations*/
-export const Annotation1 = "This is pic1";
-export const Annotation2 = "This is pic2";
-export const Annotation3 = "This is pic3";
+export const Annotation1 =
+  "Guests trying on prototype VR exhibit at Birch Aquarium, designed by SEE 2019.";
+export const Annotation2 =
+  "Very early prototype of a Tremor Tracker glove made by Steady Hands Technologies.";
+export const Annotation3 =
+  "Picture of SEE 2019 cohort after presenting at Birch Aquarium.";
 /*-Profile card*/
 export const ProfileName = "Fajar Dirham";
 export const Occupation = "Computer Engineering @ UCSD";
@@ -24,7 +27,7 @@ export const Project1Title =
   "Software Engineer and Designer Intern @ S.E.E 2019";
 export const Project1Date = "July 2019 - September 2019";
 export const Project1Text =
-  "Summer EnVision Experience 2019 was a program that saw a team of ten UCSD undergraduates design, prototype, and deliver a VR Exhibit prototype to Birch Aquarium." +
+  "Summer EnVision Experience 2019 was a program that saw a team of ten UCSD undergraduates design, prototype, and deliver a VR Exhibit prototype to Birch Aquarium at Scripps." +
   "\nLed by a PhD student and a world renowned artists, the team settled on creating robust kid friendly fish masks that played 360-video." +
   "\nThe team went through the following product design phases: Systems Requirement Review, Preliminary Design Review, Critical Design Review." +
   "\nMy job mainly dealt with software creation and hardware setup." +

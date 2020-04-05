@@ -5,7 +5,7 @@ export class ExperienceSlide extends React.Component {
   render() {
     return (
       <div className="experience-slide">
-        <Carousel className="experience-carousel" speed={3000} dots={true}>
+        <Carousel className="experience-carousel" speed={5000} dots={true}>
           {this.props.children}
         </Carousel>
         <div className="experience-text">
