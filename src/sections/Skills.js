@@ -24,19 +24,19 @@ export class Skills extends React.Component {
             <div className="skills-1">
               {" "}
               <Skill
-                imgSrc={Arduino}
+                imgSrc={Cpp}
                 imgClass="skills-1-img "
-                annotation="Arduino"
-                imgAlt="Arduino logo"
+                annotation="C++"
+                imgAlt="C++ logo"
                 annotationClass="skills-annotation "
               />
             </div>
             <div className="skills-23">
               <Skill
-                imgSrc={Cpp}
+                imgSrc={C}
                 imgClass="skills-23-img"
-                annotation="C++"
-                imgAlt="C++ logo"
+                annotation="C"
+                imgAlt="C logo"
                 annotationClass="skills-annotation"
               />
               <Skill
@@ -50,10 +50,10 @@ export class Skills extends React.Component {
           </div>
           <div className="skills-collection">
             <Skill
-              imgSrc={C}
+              imgSrc={Arduino}
               imgClass="skills-small"
-              annotation="C"
-              imgAlt="Clogo"
+              annotation="Arduino"
+              imgAlt="Arduino logo"
               annotationClass="skills-annotation-small"
             />
             <Skill

@@ -3,7 +3,8 @@ export const AboutName = "Hi! I'm Fajar Dirham";
 export const AboutWelcome = "Welcome to my personal webpage";
 export const AboutOccupation =
   "Occupation: Undergraduate at University of California San Diego";
-export const AboutWorks = "Skills: Embedded systems, IoT, Software Engineering";
+export const AboutWorks =
+  "Skills: Embedded systems, Circuit Design, Software Engineering";
 export const AboutInterests =
   "Interests: Aerospace, Virtual Reality, Autonomous Vehicles";
 
