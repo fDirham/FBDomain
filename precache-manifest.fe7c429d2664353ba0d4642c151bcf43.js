@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "46765351bc633a2b943903126b2e3984",
+    "revision": "6b60714244fefbee177badae4c2fd685",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.bf0413c3.chunk.css"
   },
   {
-    "revision": "1c26a17249063005d962",
+    "revision": "265259be1fce3fc9dbaf",
     "url": "/static/css/main.8ad04049.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.792c90a1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1c26a17249063005d962",
-    "url": "/static/js/main.cb58c988.chunk.js"
+    "revision": "265259be1fce3fc9dbaf",
+    "url": "/static/js/main.8142cde3.chunk.js"
   },
   {
     "revision": "d67d32452cceaea32bfd",
@@ -137,7 +137,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "00a65dd8492c16f221da07546de4ea31",
-    "url": "/static/media/steady-hands-1.00a65dd8.png"
+    "url": "/static/media/steady-hands-1.00a65dd8.PNG"
   },
   {
     "revision": "557e71845b3eef3a159c707bb1051456",
