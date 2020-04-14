@@ -17,7 +17,7 @@ import { AnnotatedImage as Slide } from "../components/AnnotatedImage";
 import SEE1 from "../media/Projects/see-1.jpg";
 import SEE2 from "../media/Projects/see-2.JPG";
 import SEE3 from "../media/Projects/see-3.jpg";
-import SH1 from "../media/Projects/steady-hands-1.png";
+import SH1 from "../media/Projects/steady-hands-1.PNG";
 import SH2 from "../media/Projects/steady-hands-2.jpeg";
 import SayWatt1 from "../media/Projects/saywatt-1.jpg";
 import SayWatt2 from "../media/Projects/saywatt-2.jpg";
